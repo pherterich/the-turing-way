@@ -1,7 +1,8 @@
 # What is reproducible science?
 
 ## Summary
-> to be written
+There are several definitions of reproducibility in use.
+This chapter will lay out why reproducibility is important for science and scientists, provide an overview of the most common definitions and define reproducibility for the context of this handbook.
 
 ## How this will help you/ why this is useful
 This chapter sets out the definition of reproducibility that the Turing Way project team used when writing this handbook. 
@@ -47,9 +48,12 @@ The following table contrasts both definitions following Heroux et al. (2018).
 | Reproducible | Authors provide all the necessary data and the computer codes to run the analysis again, re-creating the results.| (Different team, different experimental setup.) The measurement can be obtained with stated precision by a different team, a different measuring system, in a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using artifacts which they develop completely independently. |
 | Replicable |  A study that arrives at the same scientific findings as another study, collecting new data (possibly with different methods) and completing new analyses. | (Different team, same experimental setup.) The measurement can be obtained with stated precision by a different team using the same measurement procedure, the same measuring system, under the same operating conditions, in the same or a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using the author's own artifacts. |
 
-Barba (2018) conducted a detailed literature review covering several disciplines
+Barba (2018) conducted a detailed literature review on the usage of reproducible/replicable covering several disciplines.
+Most papers and disciplines use the terminology as defined by Claerbout and Karrenbach, whereas mircobiology, immunology and computer science tend to follow the ACM use of reproducibility and replication. 
+In political science and economics literature, both terms are used interchangeably.
 
-Victoria Stodden [(2014)](http://edge.org/response-detail/25340), a prominent scholar on this topic, has identified some useful distinctions in reproducible research:
+In addition to these high level definitions of reporducibility, some authors provide more deailed disctinctions. 
+Victoria Stodden [(2014)](http://edge.org/response-detail/25340), a prominent scholar on this topic, has for example identified the following further distinctions:
 
 - _Computational reproducibility_: when detailed information is provided about code, software, hardware and implementation details.
 
@@ -62,7 +66,17 @@ Victoria Stodden [(2014)](http://edge.org/response-detail/25340), a prominent sc
 
 The Turing Way project will define reproducible research as both data and code being available to fully rerun the analysis.
 ![Kirstie's definition of reproducible research](https://github.com/pherterich/the-turing-way/blob/master/reproducibility_kirstie.png)
-However, we recognize that some research will use sensitive data that cannot be shared and this handbook will provide guides on how your research can be reproducible without all parts necessarily being open.
+However, we recognize that some research will use sensitive data that cannot be shared and this handbook will provide guides on how your research can be reproducible without all parts necessarily being open. 
+The handbook will cover:
+* version control (using git)
+* using GitHub/GitLab for collaboration
+* Open Science
+* Research Data Management
+* Reproducible computing environments
+* Testing
+* Continous integration
+* Various case studies 
+* Checklists to get you started on reproducible practices
 
 ## Checklist/Exercise
 - [ ] define reproducibility for yourself
