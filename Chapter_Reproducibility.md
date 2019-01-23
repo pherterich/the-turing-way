@@ -38,7 +38,16 @@ Other benefits of working openly are covered in our Open Science chapter.
 
 ### Definitions of reproducibility
 
-> Copied from ROpenSci Reproducibility Guide - PH to figure out licensing/re-use
+The most common definition of reproducibility (and replication) was first noted by Claerbout and Karrenbach in 1992 and has been used in computational science literature since then. 
+Another popular definition has been introduced in 2013 by the Association for Computing Machinery (ACM) which swapped the meaning of the terms 'reproducible' and 'replicable' compared to Claerbout and Karrenbach. 
+The following table contrasts both definitions following Heroux et al. (2018).
+
+| Term | Claerbout & Karrenbach | ACM |
+| -----|------------------------|-----|
+| Reproducible | Authors provide all the necessary data and the computer codes to run the analysis again, re-creating the results.| (Different team, different experimental setup.) The measurement can be obtained with stated precision by a different team, a different measuring system, in a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using artifacts which they develop completely independently. |
+| Replicable |  A study that arrives at the same scientific findings as another study, collecting new data (possibly with different methods) and completing new analyses. | (Different team, same experimental setup.) The measurement can be obtained with stated precision by a different team using the same measurement procedure, the same measuring system, under the same operating conditions, in the same or a different location on multiple trials. For computational experiments, this means that an independent group can obtain the same result using the author's own artifacts. |
+
+Barba (2018) conducted a detailed literature review covering several disciplines
 
 Victoria Stodden [(2014)](http://edge.org/response-detail/25340), a prominent scholar on this topic, has identified some useful distinctions in reproducible research:
 
@@ -48,13 +57,6 @@ Victoria Stodden [(2014)](http://edge.org/response-detail/25340), a prominent sc
 
 - _Statistical reproducibility_: when detailed information is provided about the choice of statistical tests, model parameters, threshold values, etc. This mostly relates to pre-registration of study design to prevent p-value hacking and other manipulations. 
 
-[Stodden et al. (2013)](http://stodden.net/icerm_report.pdf) place **computational reproducibility** on a spectrum with five categories that account for many typical research contexts:
-
-- _Reviewable Research_. The descriptions of the research methods can be independently assessed and the results judged credible. (This includes both traditional peer review and community review, and does not necessarily imply reproducibility.)
-- _Replicable Research_. Tools are made available that would allow one to duplicate the results of the research, for example by running the authors’ code to produce the plots shown in the publication. (Here tools might be limited in scope, e.g., only essential data or executables, and might only be made available to referees or only upon request.)
-- _Confirmable Research_. The main conclusions of the research can be attained independently without the use of software provided by the author. (But using the complete description of algorithms and methodology provided in the publication and any supplementary materials.)
-- _Auditable Research_. Sufficient records (including data and software) have been archived so that the research can be defended later if necessary or differences between independent confirmations resolved. The archive might be private, as with traditional laboratory notebooks.
-- _Open or Reproducible Research_. Auditable research made openly available. This comprised well-documented and fully open code and data that are publicly available that would allow one to (a) fully audit the computational procedure, (b) replicate and also independently reproduce the results of the research, and (c) extend the results or apply the method to new problems.
 
 ### The Turing Way definition of reproducibility
 
@@ -69,22 +71,23 @@ However, we recognize that some research will use sensitive data that cannot be 
 Open Science will be a good chapter to read next.
 If you want to start learning hands-on practices, we recommend learning about version control next.
 
-## Definition/glossary
-> Link to the glossary here or copy in key concepts/definitions that readers should be aware of to get the most out of this chapter
-
 ## Bibliography 
 
 * Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452–454. https://doi.org/10.1038/533452a
 
+* Barba, L. (2018). Terminologies for Reproducible Research, arXiv preprint: https://arxiv.org/abs/1802.03311
+
+* Claerbout, J. F., & Karrenbach, M. (1992). Electronic documents give reproducible research a new meaning. In SEG Technical Program Expanded Abstracts 1992. Society of Exploration Geophysicists. https://doi.org/10.1190/1.1822162
+
 * Dirnagl, U., & Lauritzen, M. (2010). Fighting Publication Bias: Introducing the Negative Results Section. Journal of Cerebral Blood Flow & Metabolism, 30(7), 1263–1264. https://doi.org/10.1038/jcbfm.2010.51
+
+* Heroux, M. A., Barba, L., Parashar, M., Stodden, V., & Taufer, M. (2018). Toward a Compatible Reproducibility Taxonomy for Computational and Computing Sciences. Office of Scientific and Technical Information (OSTI). https://doi.org/10.2172/1481626
 
 * Markowetz, F. (2015). Five selfish reasons to work reproducibly. Genome Biology, 16(1). https://doi.org/10.1186/s13059-015-0850-7
 
 * Piwowar, H. A., Day, R. S., & Fridsma, D. B. (2007). Sharing Detailed Research Data Is Associated with Increased Citation Rate. PLoS ONE, 2(3), e308. https://doi.org/10.1371/journal.pone.0000308
 
 * Piwowar, H. A., & Vision, T. J. (2013). Data reuse and the open data citation advantage. PeerJ, 1, e175. https://doi.org/10.7717/peerj.175
-
-* Stodden, V., Borwein, J., & Bailey, D. H. (2013). Setting the default to reproducible. computational science research. SIAM News, 46(5), 4-6. http://stodden.net/icerm_report.pdf
 
 * Whitaker, Kirstie (2018): Barriers to reproducible research (and how to overcome them). figshare. Paper. https://doi.org/10.6084/m9.figshare.7140050.v2
 
@@ -94,7 +97,7 @@ If you want to start learning hands-on practices, we recommend learning about ve
 * Markowetz, F. (2016). 5 selfish reasons to work reproducibly. Talk at scidata 2016. https://www.youtube.com/watch?v=Is15CMVPHas&feature=youtu.be
 
 ### Recommended reading
-> top 3/5 resources to read on this topic (if they weren't licensed so we could include them above already)
+* Barba, L. (2017): Barba-group Reproducibility Syllabus. figshare. Paper. https://doi.org/10.6084/m9.figshare.4879928.v1
 
 ### Other useful links
 * Markowetz, F. (2018). 5 selfish reasons to work reproducibly. Slides available at https://osf.io/a8wq4/
