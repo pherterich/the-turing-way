@@ -4,7 +4,8 @@
 > to be written
 
 ## How this will help you/ why this is useful
-This chapter sets out the definition of reproducibility that the Turing Way project team used when writing this handbook. It will be useful to avoid misunderstandings when reading the rest of the handbook. 
+This chapter sets out the definition of reproducibility that the Turing Way project team used when writing this handbook. 
+It will be useful to avoid misunderstandings when reading the rest of the handbook. 
 
 ## Prerequisites / recommended skill level
 No previous knowledge needed. 
@@ -14,23 +15,25 @@ No previous knowledge needed.
 
 ### Why reproducibility is important for science
 
-Major media outlets have picked up on investigations that show that a significant percentage of scientific studies cannot be reproduced. (https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) This leads to other academics and society loosing trust in scientific results [some fake news reference here - maybe climate change related]. 
-(Baker, 2016).
-Working reproducibly means others can check your results - even early on in the research process. Thus, valuable time is saved as reproducing results is quick and research outputs can be re-used for other analyses.
-[this should potentially also incluse something about publishing negative results]
+Major media outlets have picked up on investigations that show that a significant percentage of scientific studies cannot be reproduced. (https://www.theguardian.com/science/2018/aug/27/attempt-to-replicate-major-social-scientific-findings-of-past-decade-fails) 
+This leads to other academics and society loosing trust in scientific results. (Baker, 2016).
+Working reproducibly means others can check your results - even early on in the research process. 
+Thus, valuable time is saved as reproducing results is quick and research outputs can be re-used for other analyses.
+In addition, so called "negative results" can be published easily and avoid that other researchers waste time repeating analyses that will not return the expected results. (Dirnagl & Lauritzen, 2010)
 
 ### Why you should care about reproducibility
 
 Markowetz highlights five reasons to work reprodubily (Markowetz, 2015):
 - Avoiding desaster: Through working reproducibly, you can trust your own research results and will not have to retract published results or keep publications back because you cannot reproduce your results.
-- Writing papers easier: well documented analyses ensure you have easy access to the latest results and your work can easily be written up and collaborators can easily get on board as additional authors. Furthermore, you can be sure that you easily comply with the highest-level journal guidelines.
+- Writing papers easier: well documented analyses ensure you have easy access to the latest results and your work can easily be written up and collaborators can easily get on board as additional authors. 
+Furthermore, you can be sure that you easily comply with the highest-level journal guidelines.
 - Convincing reviewers: Making code and data available to the reviewers means their review comments will be constructive as they are able to develop an in-depth understanding of your work and can even try changes to your analysis themselves and see the impact.
 - Facilitating continuity of work: Well documented work means others your work can easily be picked up and continued - either by other in your lab or yourself if you want to build on your own work after a longer period.
 - Building your reputation: Putting in effort to make your research reproducible shows that you are a careful researcher and makes your research results more robust. 
 
-Papers whose underlying data is available get cited more often (Piwowar, Day & Fridsma, 2007, Piwowar & Vision, 2013). All research outputs that are shared can be built upon by others and in some cases, others following up on your work will lead to new collaborations.  
-Furthermore, open science and reproducibility are increasingly included in requirements for academic job applications.
-[PH to find link to collection of job descriptions with sections on Open Science] 
+Papers whose underlying data is available get cited more often (Piwowar, Day & Fridsma, 2007, Piwowar & Vision, 2013). 
+All research outputs that are shared can be built upon by others and in some cases, others following up on your work might lead to new collaborations. 
+Other benefits of working openly are covered in our Open Science chapter. 
 
 
 ### Definitions of reproducibility
@@ -63,28 +66,35 @@ However, we recognize that some research will use sensitive data that cannot be 
 - [ ] define reproducibility for yourself
 
 ## What to learn next?
-> recommended next chapters that are a good next step up
+Open Science will be a good chapter to read next.
+If you want to start learning hands-on practices, we recommend learning about version control next.
 
 ## Definition/glossary
 > Link to the glossary here or copy in key concepts/definitions that readers should be aware of to get the most out of this chapter
 
 ## Bibliography 
 
-Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452–454. https://doi.org/10.1038/533452a
+* Baker, M. (2016). 1,500 scientists lift the lid on reproducibility. Nature, 533(7604), 452–454. https://doi.org/10.1038/533452a
 
-Markowetz, F. (2015). Five selfish reasons to work reproducibly. Genome Biology, 16(1). https://doi.org/10.1186/s13059-015-0850-7
+* Dirnagl, U., & Lauritzen, M. (2010). Fighting Publication Bias: Introducing the Negative Results Section. Journal of Cerebral Blood Flow & Metabolism, 30(7), 1263–1264. https://doi.org/10.1038/jcbfm.2010.51
 
-Piwowar, H. A., Day, R. S., & Fridsma, D. B. (2007). Sharing Detailed Research Data Is Associated with Increased Citation Rate. PLoS ONE, 2(3), e308. https://doi.org/10.1371/journal.pone.0000308
+* Markowetz, F. (2015). Five selfish reasons to work reproducibly. Genome Biology, 16(1). https://doi.org/10.1186/s13059-015-0850-7
 
-Piwowar, H. A., & Vision, T. J. (2013). Data reuse and the open data citation advantage. PeerJ, 1, e175. https://doi.org/10.7717/peerj.175
+* Piwowar, H. A., Day, R. S., & Fridsma, D. B. (2007). Sharing Detailed Research Data Is Associated with Increased Citation Rate. PLoS ONE, 2(3), e308. https://doi.org/10.1371/journal.pone.0000308
 
-Stodden, V., Borwein, J., & Bailey, D. H. (2013). Setting the default to reproducible. computational science research. SIAM News, 46(5), 4-6. http://stodden.net/icerm_report.pdf
+* Piwowar, H. A., & Vision, T. J. (2013). Data reuse and the open data citation advantage. PeerJ, 1, e175. https://doi.org/10.7717/peerj.175
 
-Whitaker, Kirstie (2018): Barriers to reproducible research (and how to overcome them). figshare. Paper. https://doi.org/10.6084/m9.figshare.7140050.v2
+* Stodden, V., Borwein, J., & Bailey, D. H. (2013). Setting the default to reproducible. computational science research. SIAM News, 46(5), 4-6. http://stodden.net/icerm_report.pdf
+
+* Whitaker, Kirstie (2018): Barriers to reproducible research (and how to overcome them). figshare. Paper. https://doi.org/10.6084/m9.figshare.7140050.v2
 
 ## Additional material 
+### Videos
+
+* Markowetz, F. (2016). 5 selfish reasons to work reproducibly. Talk at scidata 2016. https://www.youtube.com/watch?v=Is15CMVPHas&feature=youtu.be
+
 ### Recommended reading
 > top 3/5 resources to read on this topic (if they weren't licensed so we could include them above already)
 
 ### Other useful links
-> less relevant/favourite resources in case someone wants to dig into this in detail
+* Markowetz, F. (2018). 5 selfish reasons to work reproducibly. Slides available at https://osf.io/a8wq4/
